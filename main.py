@@ -1,1 +1,5 @@
-#WRITE YOUR CODE IN THIS FILE
+def doubleLast(j):
+    j.append(j[len(j)-1])
+    return j
+
+print (doubleLast(["cat", "dog", "bird", "squirrel"]))
